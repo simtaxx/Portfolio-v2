@@ -1,0 +1,25 @@
+{
+  "name": "haris-portfolio-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.15.1"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.3.0",
+    "inspector": "^0.5.0",
+    "swiper": "^4.5.0"
+  }
+}
