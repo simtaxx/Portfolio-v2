@@ -15,6 +15,9 @@ nav {
   z-index: 1;
   width: 120px;
   height: 180px;
+  opacity: 0;
+  animation: showText 2.5s forwards;
+  animation-delay: 1.2s;
   background-color: white;
   transition: 0.5s;
   .logos {
