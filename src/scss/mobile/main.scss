@@ -5,6 +5,33 @@ body {
   background-color: black;
   margin: 0 40px 0 40px;
 }
+nav {
+  position: fixed;
+  right: -95px;
+  z-index: 1;
+  width: 120px;
+  height: 180px;
+  background-color: white;
+
+  p {
+    font-family: "RobotoBold";
+    font-size: 1.2rem;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  img:nth-child(1) {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 60px;
+  }
+  img:nth-child(2) {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    width: 60px;
+  }
+}
 h2 {
   color: white;
   font-size: 2.6rem;
