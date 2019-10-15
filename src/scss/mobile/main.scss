@@ -1,36 +1,41 @@
 html {
   scroll-behavior: smooth;
+  width: 100%;
 }
 body {
   background-color: black;
-  margin: 0 40px 0 40px;
 }
 nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   position: fixed;
   right: -95px;
   z-index: 1;
   width: 120px;
   height: 180px;
   background-color: white;
+  transition: 0.5s;
+  .logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 10px;
 
+    img {
+      width: 60px;
+    }
+  }
   p {
     font-family: "RobotoBold";
     font-size: 1.2rem;
     margin-top: 0px;
     margin-left: 5px;
   }
-  img:nth-child(1) {
-    position: absolute;
-    right: 15px;
-    top: 10px;
-    width: 60px;
-  }
-  img:nth-child(2) {
-    position: absolute;
-    right: 15px;
-    bottom: 10px;
-    width: 60px;
-  }
+}
+.nav--opened {
+  right: 0;
+  transition: 0.5s;
 }
 h2 {
   color: white;
