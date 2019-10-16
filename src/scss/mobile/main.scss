@@ -33,7 +33,7 @@ nav {
     }
   }
   p {
-    font-family: "RobotoBold";
+    font-family: 'RobotoBold';
     font-size: 1.2rem;
     margin-top: 0px;
     margin-left: 5px;
@@ -46,7 +46,7 @@ nav {
 h2 {
   color: white;
   font-size: 2.6rem;
-  font-family: "RobotoBold";
+  font-family: 'RobotoBold';
   animation: moveLeft 1.5s;
   margin-bottom: 0px;
 }
@@ -56,13 +56,13 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     strong {
-      font-family: "Roboto";
+      font-family: 'Roboto';
     }
   }
   p {
     color: white;
     opacity: 0;
-    font-family: "RobotoLight";
+    font-family: 'RobotoLight';
     font-size: 1.3rem;
     animation: showText 2.5s forwards;
     animation-delay: 1.2s;
@@ -82,7 +82,9 @@ h2 {
   }
 }
 .projects {
-  height: 90vh;
+  height: 130vh;
+  color: white;
+  font-family: 'RobotoLight';
   div {
     height: 100%;
     display: flex;
