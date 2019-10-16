@@ -12,6 +12,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   right: -95px;
+  top: 300px;
   z-index: 1;
   width: 120px;
   height: 180px;
@@ -48,6 +49,14 @@ h2 {
   animation: moveLeft 1.5s;
 }
 .presentation {
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    strong {
+      font-family: "Roboto";
+    }
+  }
   p {
     color: white;
     opacity: 0;
