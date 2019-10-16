@@ -82,5 +82,14 @@ h2 {
   }
 }
 .projects {
-  height: 100vh;
+  height: 90vh;
+  div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    img {
+      width: 280px;
+    }
+  }
 }
