@@ -7,6 +7,9 @@ body {
   background-color: black;
   padding-right: 20px;
 }
+.header {
+  display: none;
+}
 nav {
   display: flex;
   flex-direction: row;
@@ -50,6 +53,9 @@ h2 {
   animation: moveLeft 1.5s;
   margin-bottom: 0px;
 }
+.myface {
+  display: none;
+}
 .presentation {
   article {
     display: flex;
@@ -67,6 +73,9 @@ h2 {
     animation: showText 2.5s forwards;
     animation-delay: 1.2s;
     line-height: 30px;
+  }
+  .about {
+    display: none;
   }
   .scroll {
     display: flex;
@@ -86,6 +95,9 @@ h2 {
   color: white;
   font-family: 'RobotoLight';
   div {
+    opacity: 0;
+    animation: showText 2.5s forwards;
+    animation-delay: 1.2s;
     height: 100%;
     display: flex;
     flex-direction: column;
