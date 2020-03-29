@@ -1,5 +1,5 @@
-@import "reset";
-@import "font";
-@import "./mobile/main";
-@import "./desktop/main.scss";
-@import "keyframes";
+@import "core/reset";
+@import "core/font";
+@import "core/typos";
+@import "animations/keyframes";
+@import "layout/footer";

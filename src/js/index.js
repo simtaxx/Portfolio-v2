@@ -1,4 +1,1 @@
-let menu = document.querySelector('nav');
-menu.addEventListener('click', () => {
-  menu.classList.toggle('nav--opened')
-})
+console.log("here we are")
