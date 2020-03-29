@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162025478-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-162025478-1');
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Hey i'm Haris Souici a web developper, welcome to my own portfolio!">
-    <title>Haris Souici</title>
+    <meta name="description" content="Hey i'm Haris Souici a young web developper, welcome to my own portfolio! (in construction!)">
+    <meta property="og:title" content="Welcome to the Haris's Portoflio" />
+    <meta property="og:url" content="https://haris-souici.fr" />
+    <meta property="og:image" content="pictures/haris.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Hey i'm Haris Souici a young web developper, welcome to my own portfolio! (in construction!)" />
+    <meta property="og:locale" content="fr_FR" />
+    <title>Haris Souici || Portfolio</title>
     <link rel="stylesheet" href="scss/styles.scss" />
     <script defer src="js/index.js"></script>
   </head>
-  <body>
-    <h1>HARIS SOUICI</h1>
-    <footer>Haris Souici || 2020</footer>
+  <body itemscope itemtype="http://schema.org/Person">
+    <h1 itemprop="name">HARIS SOUICI</h1>
+    <footer itemprop="creator">Haris Souici || 2020</footer>
   </body>
 </html>
