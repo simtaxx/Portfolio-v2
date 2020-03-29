@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/robots.txt",
-    "build": "parcel build src/index.html src/robots.txt"
+    "dev": "parcel src/index.html src/robots.txt src/sitemap.xml",
+    "build": "parcel build src/index.html src/robots.txt src/sitemap.xml"
   },
   "repository": {
     "type": "",

@@ -1,3 +1,4 @@
+Sitemap: https://haris-souici.fr/sitemap.xml
 User-Agent: *
 Allow: /
 
