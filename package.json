@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/robots.txt src/sitemap.xml src/pictures/haris.jpg",
-    "build": "parcel build src/index.html src/robots.txt src/sitemap.xml src/pictures/haris.jpg"
+    "dev": "parcel src/*.html src/robots.txt src/sitemap.xml src/pictures/haris.jpg",
+    "build": "parcel build src/*.html src/robots.txt src/sitemap.xml src/pictures/haris.jpg"
   },
   "repository": {
     "type": "",
