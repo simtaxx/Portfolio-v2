@@ -1,0 +1,49 @@
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  padding: rem(50) rem(50) 0;
+  @include desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__project {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: rem(200);
+    margin-bottom: rem(30);
+    background-size: cover;
+    border: rem(2) solid rgba(74, 74, 74, 0.5);
+    border-radius: rem(3);
+    @include desktop {
+      width: rem(400);
+      height: rem(250);
+    }
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: rem(50);
+      position: absolute;
+      bottom: 0;
+      background-color: rgba(21, 21, 21, 0.5);
+    }
+
+    h2 {
+      z-index: 1;
+      color: white;
+    }
+
+    &--quickzic {
+      background-image: url("../pictures/quickzic.jpg");
+    }
+
+    &--santa {
+      background-image: url("../pictures/santa.jpg");
+    }
+  }
+}

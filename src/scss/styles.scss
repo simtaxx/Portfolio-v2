@@ -1,5 +1,23 @@
+// CORE
+
 @import "core/reset";
 @import "core/font";
 @import "core/typos";
+@import "core/media";
+
+// MIXINS
+
+@import "mixins/pixeltorem";
+
+// ANIMATIONS
+
 @import "animations/keyframes";
+
+// LAYOUT
+
 @import "layout/footer";
+
+// MODULES
+
+@import "modules/main";
+@import "modules/projects";
