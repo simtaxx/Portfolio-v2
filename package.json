@@ -20,6 +20,6 @@
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
     "inspector": "^0.5.0",
-    "swiper": "^4.5.1"
+    "swiper": "^6.5.1"
   }
 }
